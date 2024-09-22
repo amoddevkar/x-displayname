@@ -36,7 +36,7 @@ function App() {
         <button type='submit'>Submit</button>
       </form>
 
-      {display ? <p>Full Name: {`${fName} ${lName}`}</p> : <p></p>}
+      {display && <p>Full Name: {`${fName} ${lName}`}</p>}
     </div>
   );
 }
