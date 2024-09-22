@@ -31,8 +31,8 @@ function App() {
     <div className="App">
       <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
-        <label for='firstname'>First Name:</label><input pattern="[a-zA-Z]*" type='text' name='firstname' onChange={handleFname} required /><br />
-        <label for='lastanme'>Last Name:</label><input pattern="[a-zA-Z]*" type='text' name='lastname' onChange={handleLname} required /><br />
+        <label for='firstname'>First Name:</label><input type='text' name='firstname' onChange={handleFname} required /><br />
+        <label for='lastanme'>Last Name:</label><input type='text' name='lastname' onChange={handleLname} required /><br />
         <button type='submit'>Submit</button>
       </form>
 
